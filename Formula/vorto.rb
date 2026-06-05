@@ -1,5 +1,5 @@
 class Vorto < Formula
-  VORTO_VERSION = "0.15.1".freeze
+  VORTO_VERSION = "0.15.2".freeze
 
   desc "Vim-flavored modal terminal editor with batteries included"
   homepage "https://docs.vorto-editor.dev/"
@@ -13,18 +13,18 @@ class Vorto < Formula
   on_macos do
     on_arm do
       url "https://github.com/vorto-editor/vorto/releases/download/v#{VORTO_VERSION}/vorto-#{VORTO_VERSION}-aarch64-apple-darwin.tar.gz"
-      sha256 "e66aafb585cdd4ccff549aee33c8488514a5ea0f44919150a55c5b816cf45463"
+      sha256 "d19fa968ad7e706c1784049109f50176547ebcd9bf60276468eeae1afa1b8fd7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/vorto-editor/vorto/releases/download/v#{VORTO_VERSION}/vorto-#{VORTO_VERSION}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4c42e4b97760b495aa29fc0f87f7d91d0c9da26aac7d35c4ab7899859903fb07"
+      sha256 "0a96f874162ea93f911360555ed9f6e7f9227be3455c41462de056ab11dca4f4"
     end
     on_intel do
       url "https://github.com/vorto-editor/vorto/releases/download/v#{VORTO_VERSION}/vorto-#{VORTO_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "82fa0cdc4cc438e22c7f8b944263316947fb4ab833e75cd2be8fd9de63d2b149"
+      sha256 "ef9e484da0e133923bc698ec6890ac57340f08aa285f307e29c030f081721f77"
     end
   end
 
